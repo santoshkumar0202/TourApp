@@ -1,0 +1,50 @@
+[
+{
+    "id": 1,
+    "name":"Mumbai",
+    "title":"City of dreams , bollywood home!",
+    "price":15,
+    "category": "offer",
+    "image":"https://img.freepik.com/free-photo/bandra-worli-sea-link-snaking-across-arabian-sea-mahim-bay-from-worli-bandra_469504-6.jpg?t=st=1732708533~exp=1732712133~hmac=6d6b0dacfc701956f003c151c4e62ed78ceb9cf32453aea2dee25fa0b67f2d78&w=826"
+},
+{
+    "id": 2,
+    "name":"Pune",
+    "title":"Home of the great Chhatrapati Shivaji Maharaj!",
+    "price":8,
+    "category": "offer",
+    "image":"https://img.freepik.com/free-photo/interior-zenana-mahal-city-palace-udaipur-rajasthan_53876-65513.jpg?t=st=1732702289~exp=1732705889~hmac=a6b1928a81dc726e1e34bfad233277efe024cb11b700432ee82ffd2255bfa572&w=826"
+},
+{
+    "id": 3,
+    "name":"Kolhapur",
+    "title":"Gateway of Konkan",
+    "price":10,
+    "category": "offer",
+    "image":"https://img.freepik.com/free-photo/thachomphu-railway-bridge-white-bridge-sunrise-lamphun-thailand_335224-788.jpg?t=st=1732708597~exp=1732712197~hmac=9a1ae3ff1f33b71cdff994bfb079261f088450ac9fdda4ed0f95590d6917452b&w=826"
+},
+{
+    "id": 4,
+    "name":"Mumbai",
+    "title":"City of dreams , bollywood home!",
+    "price":15,
+    "category": "offer",
+    "image":"https://img.freepik.com/free-photo/bandra-worli-sea-link-snaking-across-arabian-sea-mahim-bay-from-worli-bandra_469504-6.jpg?t=st=1732708533~exp=1732712133~hmac=6d6b0dacfc701956f003c151c4e62ed78ceb9cf32453aea2dee25fa0b67f2d78&w=826"
+},
+{
+    "id": 5,
+    "name":"Hyderabad",
+    "title":"Home of the great Chhatrapati Shivaji Maharaj!",
+    "price":8,
+    "category": "Mah",
+    "image":"https://img.freepik.com/free-photo/interior-zenana-mahal-city-palace-udaipur-rajasthan_53876-65513.jpg?t=st=1732702289~exp=1732705889~hmac=a6b1928a81dc726e1e34bfad233277efe024cb11b700432ee82ffd2255bfa572&w=826"
+},
+{
+    "id": 6,
+    "name":"Masoorie",
+    "title":"Gateway of Konkan",
+    "price":10,
+    "category": "rural",
+    "image":"https://img.freepik.com/free-photo/thachomphu-railway-bridge-white-bridge-sunrise-lamphun-thailand_335224-788.jpg?t=st=1732708597~exp=1732712197~hmac=9a1ae3ff1f33b71cdff994bfb079261f088450ac9fdda4ed0f95590d6917452b&w=826"
+}
+]
