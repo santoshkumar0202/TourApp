@@ -25,6 +25,7 @@
     "express": "^4.21.1",
     "mongoose": "^8.8.3",
     "mongose": "^0.0.2-security",
+    "nodemailer": "^6.9.16",
     "nodemon": "^3.1.7"
   }
 }

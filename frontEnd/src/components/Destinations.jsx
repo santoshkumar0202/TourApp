@@ -1,10 +1,26 @@
-import React from "react";
+//frontEnd\src\components\Destinations.jsx
+import React, { useEffect, useState } from "react";
+import axios from "axios";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
-import list from "../../public/list.json";
 import Cards from "./Cards";
 
 function Destinations() {
+
+  const [destination, setDestination] = useState([]);
+useEffect(() => {
+  const fetchDestinations = async () => {
+    try {
+      const res = await axios.get("http://localhost:4000/book");
+      console.log("Fetched destinations:", res.data);
+      setDestination(res.data);
+    } catch (error) {
+      console.error("Error fetching destinations:", error);
+    }
+  };
+  fetchDestinations();
+}, []);
+
   return (
     <>
       <Navbar />
@@ -28,11 +44,11 @@ function Destinations() {
           </button>
         </div>
         <div>
-         {
-            list.map((item) => (
-                <Cards key={item.id} item={item} />
-            ))
-            }
+        {
+        destination.map((item) => (
+            <Cards key={item.id} item={item} />
+          ))}
+
         </div>
       </div>
       <Footer />

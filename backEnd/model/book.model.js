@@ -1,12 +1,13 @@
+//backEnd\model\book.model.js
 import mongoose from "mongoose";
 
-const bookSchema = mongoose.Schema({
+const DestinationSchema = mongoose.Schema({
     name: String,
     price: Number,
     category: String,
     image: String,
     title: String,
 });
-const Destination = mongoose.model("Dest", bookSchema);
+const Destination = mongoose.model("Destination", DestinationSchema);
 
 export default Destination;
